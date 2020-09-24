@@ -1,8 +1,8 @@
 {
-    "name": "codica-studio/facebookmessenger",
+    "name": "codicastudio/facebook-messenger",
     "description": "A random Codica Studio package.",
 
-    "homepage": "https://github.com/codicastudio/facebookmessenger",
+    "homepage": "https://github.com/codicastudio/facebook-messenger",
     "license": "MIT",
     "authors": [
         {
@@ -19,7 +19,7 @@
         "illuminate/support": "^8.0"
     },
     "require-dev": {
-        "mockery/mockery": "^1.0",
+        "mockery/mockery": "^1.1",
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {
@@ -36,7 +36,9 @@
         "test": "vendor/bin/phpunit"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "minimum-stability": "stable",
+        "prefer-stable": true
     },
     "extra": {
         "laravel": {
